@@ -1,0 +1,54 @@
+html {
+    background-color: antiquewhite;
+}
+p {
+    color: black;
+    background-color: rgba(137, 43, 226, 0);
+    width: 88px;
+    height: 44px;
+    text-align: center;
+    font-family: 'BIZ UDMincho', serif;
+    border-style: solid;
+    border-radius: 50px;
+    font-size:27px;
+    padding-top: 27px;
+    padding-bottom: 22px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#thyroid-icon {
+    font-size:22px;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.white-tag {
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 109px;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 55px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Volkhov', serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 38px;
+}
+hr {
+    width: 26.5px; 
+    height: 1.5px;
+    border-width: 0;
+    color: #707070;
+    background-color: #707070;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 20px;
+}

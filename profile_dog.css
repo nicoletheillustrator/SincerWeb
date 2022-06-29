@@ -1,0 +1,326 @@
+.container {
+    width: 1024px;
+   
+    margin: auto;
+    margin-top: -50px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ffffff;
+    background-image: url(images/web/bg_body.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header {
+    height: 52px;
+    background-color: #9FB8AD;
+    margin-top: 100px;
+    border-radius: 4px;
+    width: 800px;
+    margin-left: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.navbar li:first-child {
+    margin-left: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 20px;
+   
+}
+
+.navbar li:hover {
+    background-color: #ced0ce;
+    transition: 320ms;
+    cursor: pointer;
+}
+#logo {
+    position: absolute;
+    margin-top: -40px;
+}
+
+
+/* main starts here */
+
+
+/* line1 start */
+
+.decorbx {
+    position: absolute;
+    width: 900px;
+    height: 450px;
+    background-color: #ced0ce81;
+    transform: translateY(-530px);
+    z-index: 1;
+    border-radius: 6px;
+}
+.line1 {
+    display: flex;
+    text-align: center;
+   ;
+}
+.photoofdog {
+    padding: 40px 20px 20px 20px;
+    z-index: 3;
+}
+.photoofdog img{
+    border-radius: 6px;
+    z-index: 3;
+}
+
+.maininfo {
+    padding: 40px 20px 20px 20px;
+    font-family: 'Overpass', sans-serif;
+    z-index: 2;
+}
+.maininfo p{
+    font-family: 'Overpass', sans-serif;
+}
+.line1 h1 {
+    font-family: 'Anton', sans-serif;
+    color: #3f403f;
+}
+/* line2 start */
+
+.line2 {
+    display: flex;
+    padding-top: 40px;
+}
+.line1 h2{
+    font-family: 'Overpass', sans-serif;
+}
+
+/* healthicons */
+.bubble-icon-health {
+    color: #3f403f;
+    background-color: rgba(137, 43, 226, 0);
+    width: 88px;
+    height: 44px;
+    text-align: center;
+    font-family: 'BIZ UDMincho', serif;
+    border-style: solid;
+    border-radius: 50px;
+    font-size:27px;
+    padding-top: 27px;
+    padding-bottom: 22px;
+    padding-left: 3px;
+    padding-right: 3px;
+   
+}
+
+#thyroid-icon {
+    font-size:22px;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.healthsection {
+    display: flex;
+    padding-left: 40px;
+}
+
+.healthbox {
+    display: flex;
+}
+
+.healthbox p:last-child{
+    margin-top: 50px;
+    padding: 5px 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+/* line2 continue */
+
+.mybox1 {
+    background-color: transparent;
+ 
+    background-size: contain no-repeat;
+    width: 400px;
+    height: 500px;
+    margin: 20px 0px 20px 150px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.298);
+    text-align: center;
+    border-color: #b7b7b7;
+}
+.mybox1 hr{
+    border-style: solid;
+    border-bottom: 0;
+    border-color: rgb(159, 159, 159);
+}
+.mybox1 h1 {
+    font-family: 'Anton', sans-serif;
+    color: #3f403f;
+}
+
+.damebox,.sirebox{
+    display: flex;
+    padding-bottom: 40px;
+    margin-left: 20px;text-align: left;
+    font-family: 'Overpass', sans-serif;
+}
+.name {
+ margin-left: 30px;
+}
+/* line 3 */
+
+
+#vizsladatabase {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+.database_button {
+    background-color: #475841;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.353);
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+
+.database_button p {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.database_button:hover {
+    background-color: #2e3d29;
+    transition-duration: 400ms;
+}
+
+
+
+
+
+
+
+
+
+
+/* line 4 css */
+
+.line4 {
+    padding-top: 60px;
+    margin-left: 35px;
+
+}
+/* carousel start css */
+
+
+.slideshow_container {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+  /* overflow: hidden; */
+   display: flex;
+}
+
+.carousel_img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.carousel_track-container {
+   height: 600px;
+   width: 900px;
+   position: relative;
+  overflow: hidden;
+}
+
+.carousel_track {
+    padding:0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    list-style: none;
+    transition: transform 250ms ease-in;
+}
+
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+
+.carousel_button {
+    transform: translateY(270px);
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+
+
+}
+
+.carousel_nav{
+    display: flex;
+    justify-content: center;
+  
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
+
+.carousel_indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #e6e8e6;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.carousel_indicator.current-slide {
+    background: #a6a7a6;
+}
+
+.is-hidden {
+    display: none;
+}
+/* carousel end */
+
+/* footer */
+
+footer {
+    height: 200px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+}

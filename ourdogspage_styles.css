@@ -1,0 +1,523 @@
+.container {
+    width: 1024px;
+   
+    margin: auto;
+    margin-top: -50px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ffffff;
+    background-image: url(images/web/bg_body.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header {
+    height: 52px;
+    background-color: #9FB8AD;
+    margin-top: 100px;
+    border-radius: 4px;
+    width: 800px;
+    margin-left: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.navbar li:first-child {
+    margin-left: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 20px;
+   
+}
+
+.navbar li:hover {
+    background-color: #ced0ce;
+    transition: 320ms;
+    cursor: pointer;
+}
+#logo {
+    position: absolute;
+    margin-top: -40px;
+}
+
+
+/* main starts here */
+
+main {
+    height: fit-content;
+    
+}
+
+
+/* hidden nav elements */
+#burgermenu {
+    display: none;
+}
+
+#burgermenu-open {
+    display: none;
+}
+
+.sidemenu-openbox {
+    display: none;
+}
+
+/* side nav finish */
+/* line 1 */
+#bitches {
+    color: #3f403f;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#studs {
+    color: #3f403f;
+    font-weight: 400;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+.profilewrapper {
+    display: block;
+}
+.mybox {
+    width: 1024px;
+    height: fit-content;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.description {
+    width: 240px;
+    height: fit-content;
+    font-size: 1.188;
+    padding-top: 20px;
+}
+
+.name {
+    text-decoration: underline;
+    font-size: 1.813rem;
+    font-family: 'Anton', sans-serif;
+    color: #3f403f;
+}
+
+.infostack {
+    padding: 40px;
+}
+
+.dogpic{
+    border-radius: 20px;
+   
+}
+
+
+
+.profilebtn {
+    color: white;
+    
+    text-decoration: none;
+    border-style: solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+}
+
+.terry {
+    position: absolute;
+    color: black;
+    margin-top: 150px;
+    padding: 60px 50px;
+    border-radius: 2px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.39);
+    margin-left: 170px;
+    background-color: white;
+    opacity: 0;
+}
+
+.terry p{
+    color: black;
+    font-size: 24px;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+#nametag{
+    display: none;
+}
+
+
+.box:hover .terry{
+    opacity: 1;
+    transition: 400ms;
+    
+}
+.terry:hover {
+    transform: scale(1.05);
+}
+
+hr {
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 0px;
+    margin-left: -5px;
+   
+}
+
+.box:hover hr {
+    width: 60px;
+    transition: ease-in-out 800ms;
+    
+}
+.floatingnav {
+    position: absolute;
+    position: fixed;
+    /* transform: scale(3); */
+  font-size: 45px;
+    margin-left: 950px;
+    background-color: #676767;
+    padding: 7px 3.3px;
+    border-radius: 4px;
+    opacity: 0;
+    display: flex;
+
+}
+
+.scroll-down .floatingnav {
+    
+    opacity: 1;
+    transition-delay: 500ms;
+    transition-duration: 500ms;
+}
+
+.scroll-up .floatingnav{
+    opacity: 1;
+}
+
+#male-icon {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#female-icon {
+    text-decoration: none;
+    color: white;
+}
+
+.floatingnav2 {
+    position: absolute;
+    position: fixed;
+    /* transform: scale(2.68); */
+    font-size: 40px;
+    margin-left: 950px;
+    background-color: #676767;
+    padding: 8px 3px;
+    border-radius: 4px;
+    opacity: 0;
+    display: flex;
+    margin-top: 68px;
+
+}
+
+.scroll-down .floatingnav2 {
+    
+    opacity: 1;
+    transition-delay: 500ms;
+    transition-duration: 500ms;
+}
+
+.scroll-up .floatingnav2{
+    opacity: 1;
+}
+
+.floatingnav:hover, .floatingnav2:hover {
+    background-color: rgb(42, 42, 42);
+    transition-duration: 100ms;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.magicnav{
+    margin-top: 100px;
+    position: absolute;
+}
+
+.description{
+    font-family: 'Overpass', sans-serif;
+}
+
+.date-name {
+    font-family: 'Overpass', sans-serif;
+}
+
+#studs {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #e6e8e6;
+     margin-top: 200px;
+     width: 100%;
+     height: 200px;
+     color: #3f403f;
+     display: flex;
+     padding: 10px;
+     position: relative;
+     z-index: 2;
+ }
+ 
+ .footerbox1 {
+     padding-top: 20px;
+ }
+ .footerbox2 ul{
+     display: block;
+ }
+ .footerbox2 a{
+     color: #3f403f;
+    
+ }
+ 
+ .footerbox2 li{
+     padding-left:0;
+     padding-top:5px;
+ }
+ 
+ #sitelink {
+     font-size: 24px;
+     color: #3f403f;
+     font-family: 'Overpass', sans-serif;
+ }
+ 
+ 
+ .contactusbtn {
+ background-color: #9FB8AD;
+ padding: 30px 50px;
+ cursor: pointer;
+ border-radius: 5px;
+ margin-left: 250px;
+ margin-top: 70px;
+ }
+ 
+ .contactusbtn a{
+     text-decoration: none;
+     color: #e6e8e6;
+     font-size: 24px;
+ }
+ 
+ .contactusbtn:hover {
+    background-color:#475841;
+ }
+
+
+/* Ipad size query start */
+ @media screen and (max-width:768px) {
+
+.container {
+    margin: 0;
+    max-width: 768px;
+    overflow: hidden;
+    margin-top: -40px;
+    position: relative;
+   
+}
+
+.magicnav {
+    display: none;
+}
+/* logo editing */
+.navbar {
+    display: none;
+}
+header {
+    display: none;
+}
+
+#logo {
+margin-top: 60px;
+position: absolute;
+z-index: 1;
+margin-left: 20px;
+}
+/* menu burger start */
+#burgermenu {
+    display: block;
+    font-size: 50px;
+    position: relative;
+    margin-top: 60px;
+    right: 0;
+    margin-right: 40px;
+    color: #3f403f;
+    z-index: 4;
+    cursor: pointer;
+    position: fixed;
+}
+#burgermenu-open{
+    display: block;
+    font-size: 50px;
+    position: relative;
+    margin-top: 80px;
+    transform: translateX(985px);
+    color: #ffffff;
+    z-index: 5;
+    display: none;
+   
+}
+.sidemenu-openbox {
+    display: block;
+    background-color: #3f403f;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    right: -320px;
+    z-index: 4;
+    margin-top: 30px;
+    font-family: 
+    'Overpass', sans-serif;
+    position: fixed;
+    transition-duration: 500ms;
+   
+}
+
+#close {
+    font-size: 32px;
+    color: #ffffff;
+    padding: 30px;
+    margin: 0;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+
+.space {
+    max-width: 100%;
+    height: 100px;
+}
+.sidemenu ul{
+    display: block;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    
+}
+
+.sidemenu li:hover {
+background-color: #9fb8ad;
+transition-duration: 400ms;
+}
+
+.sidemenu-openbox a{
+text-decoration: none;
+color: #ffffff;
+}
+
+
+/* line 1 bitches */
+
+#bitches {
+padding-top: 200px;
+
+font-size: 40px;
+
+}
+
+/* profiles */
+.dogpic {
+    width: 200px;
+    border-radius: 2px;
+}
+.profilewrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+   
+}
+.mybox {
+    width: 220px;
+    margin: 10px;
+    
+}
+
+.infostack {
+    display: none;
+}
+.terry {
+    opacity:1;
+    width: 15px;
+    height: 20px;
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.terry p{
+    font-size: 12px;
+}
+
+#VP {
+    display: none;
+}
+
+#nametag {
+    display: block;
+}
+
+.terry hr{
+    width: 20px;
+    border-width: 1px;
+}
+
+footer {
+    display: none;
+}
+
+#studs {
+    text-align: center;
+    font-size: 40px ;
+   
+}
+.studs {
+    width: 100%;
+}
+.mybox2 {
+    width: 300px;
+    margin: 0;
+    
+}
+
+}
+ 
